@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.settings",
+  "include": ["./exports", "./src"],
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@sanity/demo/tailwind": ["./exports/tailwind.ts"],
+      "@sanity/demo": ["./exports/index.ts"]
+    }
+  }
+}
