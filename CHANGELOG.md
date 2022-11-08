@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.2](https://github.com/sanity-io/demo/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-11-08)
+
+### Bug Fixes
+
+- include `tailwind.js` ([5a2a6ce](https://github.com/sanity-io/demo/commit/5a2a6ce6571ee60f5538eede3a6c8f2962f5fb51))
+
 ## 1.0.0-alpha.1 (2022-11-08)
 
 ### Features
