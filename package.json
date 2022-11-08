@@ -5,7 +5,8 @@
   "description": "Design tokens for implementing demos and templates at Sanity.io.",
   "files": [
     "dist",
-    "src"
+    "src",
+    "tailwind.js"
   ],
   "types": "./dist/index.d.ts",
   "source": "./exports/index.ts",
