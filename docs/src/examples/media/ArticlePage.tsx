@@ -14,11 +14,11 @@ export function ArticlePage() {
       <div className="pb-4 md:pb-6">
         <div className="m-auto max-w-5xl p-4 md:p-5 lg:p-6">
           <div className="text-sm sm:text-lg md:text-xl">
-            <a className="font-medium hover:text-blue-500" href="#/tag/ideas">
+            <a className="hover:text-blue-500" href="#/tag/ideas">
               Ideas
             </a>
             <span> ● </span>
-            <a className="font-medium hover:text-blue-500" href="#/tag/real-estate">
+            <a className="hover:text-blue-500" href="#/tag/real-estate">
               Real Estate
             </a>
           </div>
@@ -52,11 +52,11 @@ export function ArticlePage() {
 
         <div className="m-auto max-w-5xl p-4 md:p-5 lg:p-6">
           <div className="mt-4 max-w-2xl border-b border-gray-200 pb-3 text-sm dark:border-gray-900 sm:text-lg md:mt-auto md:pb-4 md:text-xl">
-            <span className="font-medium">Oct 25, 2022</span>
+            <span>Oct 25, 2022</span>
             <span> ● </span>
-            <span className="font-medium">Carolina Gonzalez</span>
+            <span>Carolina Gonzalez</span>
             <span> ● </span>
-            <span className="font-medium">Rune Botten</span>
+            <span>Rune Botten</span>
           </div>
 
           <p className="my-4 max-w-2xl font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed">

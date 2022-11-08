@@ -8,7 +8,7 @@ export function Figure(props: {caption?: ReactNode; className?: string; img?: Re
       {img}
 
       <figcaption className="mt-1">
-        <p className="text-sm font-medium leading-tight">{caption}</p>
+        <p className="text-sm leading-tight">{caption}</p>
       </figcaption>
     </figure>
   )

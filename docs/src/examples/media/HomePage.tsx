@@ -49,11 +49,11 @@ function ArticlePreview(props: {mainImage: string}) {
           </p>
 
           <div className="mt-4 text-sm md:mt-auto">
-            <span className="font-medium">Oct 25, 2022</span>
+            <span>Oct 25, 2022</span>
             <span> ● </span>
-            <span className="font-medium">Carolina Gonzalez</span>
+            <span>Carolina Gonzalez</span>
             <span> ● </span>
-            <span className="font-medium">Rune Botten</span>
+            <span>Rune Botten</span>
           </div>
         </div>
       </Link>

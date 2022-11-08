@@ -5,8 +5,8 @@ import {HomePage} from './HomePage'
 export function MediaExample() {
   return (
     <>
-      <div className="bg-black p-3 text-white dark:bg-white dark:text-black">
-        <Link to="/">&larr; Design guidelines</Link>
+      <div className="border-b border-gray-200 bg-black px-4 py-3 font-extrabold dark:border-gray-900">
+        <Link to="/">● Demo</Link>
       </div>
 
       <Routes>

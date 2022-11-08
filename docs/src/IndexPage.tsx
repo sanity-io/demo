@@ -12,43 +12,46 @@ export function IndexPage() {
     <div className="flex">
       <div className="sticky top-0 h-screen w-64 flex-none overflow-auto border-r border-gray-200 dark:border-gray-900">
         <div className="p-5">
-          <div className="mb-4 text-2xl font-extrabold leading-none tracking-tight sm:text-3xl md:text-4xl">
-            <Link className="hover:text-blue-500" to="/">
-              Guideline.
+          <div className="mb-4 text-xl font-extrabold leading-none tracking-tight sm:text-2xl md:text-3xl">
+            <Link className="hover:text-blue-500" to="/" style={{whiteSpace: 'nowrap'}}>
+              <span className="text-blue-500" style={{marginLeft: '-0.125em'}}>
+                ●
+              </span>{' '}
+              Demo
             </Link>
           </div>
 
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/">
               Introduction
             </Link>
           </div>
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/logo">
               Logo
             </Link>
           </div>
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/colors">
               Colors
             </Link>
           </div>
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/spacing">
               Spacing
             </Link>
           </div>
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/typography">
               Typography
             </Link>
           </div>
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/layouts">
               Layouts
             </Link>
           </div>
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/images">
               Images
             </Link>
@@ -57,12 +60,12 @@ export function IndexPage() {
 
         <div className="p-5">
           <div className="mb-1 text-lg font-extrabold">Examples</div>
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/example/media">
               Media example
             </Link>
           </div>
-          <div className="font-medium">
+          <div>
             <Link className="hover:text-blue-500" to="/example/marketing">
               Marketing example
             </Link>

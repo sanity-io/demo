@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import {MarketingExample} from './pages/example/marketing'
-import {MediaExample} from './pages/example/media'
-import {IndexPage} from './pages/IndexPage'
+import {MarketingExample} from './examples/marketing'
+import {MediaExample} from './examples/media'
+import {IndexPage} from './IndexPage'
 
 export function Root() {
   return (
