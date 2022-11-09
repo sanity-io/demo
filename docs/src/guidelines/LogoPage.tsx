@@ -1,7 +1,12 @@
+import {WordmarkExample} from './blocks/WordmarkExample'
+import {Container} from './components/Container'
+import {NotProse} from './components/NotProse'
+import {Prose} from './components/Prose'
+
 export function LogoPage() {
   return (
-    <div className="m-auto max-w-4xl p-5 md:p-6 lg:p-7">
-      <div className="prose dark:prose-invert prose-p:leading-snug prose-headings:font-extrabold prose-headings:tracking-tight md:prose-lg">
+    <Container>
+      <Prose>
         <h1>Logo</h1>
 
         <p>
@@ -15,23 +20,19 @@ export function LogoPage() {
           <strong>The word mark must be prefixed with a filled circle:</strong>
         </p>
 
-        <div className="not-prose my-6 rounded border border-gray-200 py-7 dark:border-gray-900">
-          <div className="text-center text-6xl font-extrabold tracking-tight">
-            <span>●</span> Wordmark
-          </div>
-        </div>
+        <NotProse>
+          <WordmarkExample title="Wordmark" />
+        </NotProse>
 
         <p>
           In some cases, we need a title with multiple words.{' '}
           <strong>If so, skip the spaces:</strong>
         </p>
 
-        <div className="not-prose my-6 rounded border border-gray-200 py-7 dark:border-gray-900">
-          <div className="text-center text-6xl font-extrabold tracking-tight">
-            <span>●</span> LandingPages
-          </div>
-        </div>
-      </div>
-    </div>
+        <NotProse>
+          <WordmarkExample title="LandingPages" />
+        </NotProse>
+      </Prose>
+    </Container>
   )
 }

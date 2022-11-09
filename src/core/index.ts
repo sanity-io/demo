@@ -14,5 +14,8 @@ export const radius = [0, 1, 3, 6, 9, 12, 21]
  */
 export const screen = [640, 768, 1024, 1280, 1536]
 
-/** @alpha */
+/**
+ * The Sanity spacing scale.
+ * @alpha
+ */
 export const space = [0, 4, 8, 12, 20, 32, 52, 84, 136, 220]

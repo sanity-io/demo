@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 export function MarketingExample() {
   return (
     <>
-      <div className="border-b border-gray-200 bg-black px-4 py-3 font-extrabold dark:border-gray-900">
+      <div className="border-b border-gray-200 px-4 py-3 font-extrabold dark:border-gray-900">
         <Link to="/">● Demo</Link>
       </div>
 

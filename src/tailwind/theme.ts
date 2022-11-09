@@ -6,6 +6,14 @@ function _buildTailwindColorTints(tints: ColorTints) {
   return Object.fromEntries(Object.entries(tints).map(([tintKey, tint]) => [tintKey, tint.hex]))
 }
 
+const _round = (num: number) =>
+  num
+    .toFixed(7)
+    .replace(/(\.[0-9]+?)0+$/, '$1')
+    .replace(/\.0$/, '')
+const _rem = (px: number) => `${_round(px / 16)}rem`
+// const em = (px, base) => `${round(px / base)}em`
+
 /** @alpha */
 export const theme: Partial<ThemeConfig & {extend: Partial<ThemeConfig>}> = {
   extend: {
@@ -35,8 +43,8 @@ export const theme: Partial<ThemeConfig & {extend: Partial<ThemeConfig>}> = {
           '--tw-prose-quote-borders': black.hex,
           '--tw-prose-captions': black.hex,
           '--tw-prose-code': black.hex,
-          '--tw-prose-pre-code': black.hex,
-          '--tw-prose-pre-bg': 'transparent',
+          '--tw-prose-pre-code': white.hex,
+          '--tw-prose-pre-bg': black.hex,
           '--tw-prose-th-borders': black.hex,
           '--tw-prose-td-borders': black.hex,
           '--tw-prose-invert-body': white.hex,
@@ -51,10 +59,51 @@ export const theme: Partial<ThemeConfig & {extend: Partial<ThemeConfig>}> = {
           '--tw-prose-invert-quote-borders': white.hex,
           '--tw-prose-invert-captions': white.hex,
           '--tw-prose-invert-code': white.hex,
-          '--tw-prose-invert-pre-code': white.hex,
-          '--tw-prose-invert-pre-bg': 'transparent',
+          '--tw-prose-invert-pre-code': black.hex,
+          '--tw-prose-invert-pre-bg': white.hex,
           '--tw-prose-invert-th-borders': white.hex,
           '--tw-prose-invert-td-borders': white.hex,
+
+          blockquote: {
+            fontWeight: 'inherit',
+            fontStyle: 'normal',
+          },
+        },
+      },
+
+      sm: {
+        css: {
+          pre: {
+            borderRadius: _rem(radius[2]),
+          },
+        },
+      },
+      base: {
+        css: {
+          pre: {
+            borderRadius: _rem(radius[2]),
+          },
+        },
+      },
+      lg: {
+        css: {
+          pre: {
+            borderRadius: _rem(radius[2]),
+          },
+        },
+      },
+      xl: {
+        css: {
+          pre: {
+            borderRadius: _rem(radius[2]),
+          },
+        },
+      },
+      '2xl': {
+        css: {
+          pre: {
+            borderRadius: _rem(radius[2]),
+          },
         },
       },
     },

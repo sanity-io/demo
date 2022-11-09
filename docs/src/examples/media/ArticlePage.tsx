@@ -45,7 +45,7 @@ export function ArticlePage() {
             <img
               className="aspect-[4/2]"
               src="https://images.unsplash.com/photo-1555849887-cd72592f3cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h1000&w=1000&q=80"
-              style={{display: 'block'}}
+              style={{display: 'block', objectFit: 'cover'}}
             />
           }
         />
@@ -85,7 +85,7 @@ export function ArticlePage() {
               <img
                 className="aspect-[4/2]"
                 src="https://images.unsplash.com/photo-1555849887-cd72592f3cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h1000&w=1000&q=80"
-                style={{display: 'block'}}
+                style={{display: 'block', objectFit: 'cover'}}
               />
             }
           />

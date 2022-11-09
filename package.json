@@ -31,7 +31,7 @@
   },
   "scripts": {
     "build": "rimraf dist && pkg build --strict",
-    "dev": "pnpm --filter *-docs dev",
+    "dev": "pnpm build && pnpm --filter *-docs dev",
     "format": "prettier --write --cache --ignore-unknown .",
     "lint": "eslint . --ext .cjs,.js,.jsx,.mjs,.ts,.tsx",
     "prepare": "husky install",

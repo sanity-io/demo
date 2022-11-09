@@ -2,6 +2,9 @@
   "extends": "../tsconfig.settings",
   "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "@sanity/demo": ["../exports/index.ts"]
+    }
   }
 }
