@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@sanity/demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design tokens for implementing demos and templates at Sanity.io.",
   "files": [
     "dist",
