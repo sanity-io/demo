@@ -24,7 +24,9 @@ export function SpacingPage() {
 
         <NotProse>
           <div className="my-4 rounded border border-gray-200 p-4 dark:border-gray-900">
-            <div className="bg-magenta-50 dark:bg-magenta-950">A box with text</div>
+            <div className="bg-magenta-50 dark:bg-magenta-950 text-magenta-500">
+              A box with text
+            </div>
           </div>
         </NotProse>
 
@@ -32,7 +34,7 @@ export function SpacingPage() {
 
         <NotProse>
           <div className="my-4 rounded border border-gray-200 p-2 dark:border-gray-900">
-            <div className="bg-magenta-200 dark:bg-magenta-800 p-5 text-center text-white dark:text-black">
+            <div className="bg-magenta-50 dark:bg-magenta-950 text-magenta-500 p-5 text-center">
               (graphic)
             </div>
           </div>

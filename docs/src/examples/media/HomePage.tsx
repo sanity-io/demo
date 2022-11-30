@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import {Footer} from './components/Footer'
+import {ImageWrapper} from './components/ImageWrapper'
 import {Navbar} from './components/Navbar'
 
 export function HomePage() {
@@ -31,15 +32,17 @@ function ArticlePreview(props: {mainImage: string}) {
     <div>
       <Link className="md:flex" to="/example/media/article">
         <div className="flex-1 p-2 md:w-1/2">
-          <img
-            className="aspect-[4/2] md:aspect-[3/2]"
-            src={mainImage}
-            style={{objectFit: 'cover'}}
-          />
+          <ImageWrapper>
+            <img
+              className="aspect-[4/2] md:aspect-[3/2]"
+              src={mainImage}
+              style={{objectFit: 'cover'}}
+            />
+          </ImageWrapper>
         </div>
 
         <div className="flex flex-1 flex-col p-4 md:w-1/2">
-          <h1 className="mb-2 text-4xl font-extrabold leading-none tracking-tight md:text-5xl">
+          <h1 className="mb-2 text-3xl font-extrabold leading-none tracking-tight md:text-4xl">
             The power of newsletters
           </h1>
 

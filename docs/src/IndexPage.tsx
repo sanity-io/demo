@@ -18,20 +18,25 @@ export function IndexPage() {
           {/* Logo */}
           <div className="p-2 sm:p-3">
             <div className="text-2xl font-extrabold leading-none tracking-tight sm:text-3xl">
-              <Link className="hover:text-blue-500" to="/" style={{whiteSpace: 'nowrap'}}>
-                <span className="text-blue-500" style={{marginLeft: '-0.125em'}}>
-                  ●
-                </span>{' '}
+              <Link
+                className="hover:text-blue-600 dark:hover:text-blue-400"
+                to="/"
+                style={{whiteSpace: 'nowrap'}}
+              >
                 Demo
               </Link>
             </div>
           </div>
 
           {/* Guidelines */}
-          <div className="p-2 leading-relaxed sm:p-3">
+          <div className="p-2 leading-relaxed text-gray-700 dark:text-gray-200 sm:p-3">
             <div>
               <Link
-                className={segments[0] === undefined ? 'text-blue-500' : 'hover:text-blue-500'}
+                className={
+                  segments[0] === undefined
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'hover:text-blue-600 dark:hover:text-blue-400'
+                }
                 to="/"
               >
                 Introduction
@@ -39,7 +44,11 @@ export function IndexPage() {
             </div>
             <div>
               <Link
-                className={segments[0] === 'logo' ? 'text-blue-500' : 'hover:text-blue-500'}
+                className={
+                  segments[0] === 'logo'
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'hover:text-blue-600 dark:hover:text-blue-400'
+                }
                 to="/logo"
               >
                 Logo
@@ -47,7 +56,11 @@ export function IndexPage() {
             </div>
             <div>
               <Link
-                className={segments[0] === 'colors' ? 'text-blue-500' : 'hover:text-blue-500'}
+                className={
+                  segments[0] === 'colors'
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'hover:text-blue-600 dark:hover:text-blue-400'
+                }
                 to="/colors"
               >
                 Colors
@@ -55,7 +68,11 @@ export function IndexPage() {
             </div>
             <div>
               <Link
-                className={segments[0] === 'spacing' ? 'text-blue-500' : 'hover:text-blue-500'}
+                className={
+                  segments[0] === 'spacing'
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'hover:text-blue-600 dark:hover:text-blue-400'
+                }
                 to="/spacing"
               >
                 Spacing
@@ -63,7 +80,11 @@ export function IndexPage() {
             </div>
             <div>
               <Link
-                className={segments[0] === 'typography' ? 'text-blue-500' : 'hover:text-blue-500'}
+                className={
+                  segments[0] === 'typography'
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'hover:text-blue-600 dark:hover:text-blue-400'
+                }
                 to="/typography"
               >
                 Typography
@@ -71,7 +92,11 @@ export function IndexPage() {
             </div>
             <div>
               <Link
-                className={segments[0] === 'graphics' ? 'text-blue-500' : 'hover:text-blue-500'}
+                className={
+                  segments[0] === 'graphics'
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'hover:text-blue-600 dark:hover:text-blue-400'
+                }
                 to="/graphics"
               >
                 Graphics
@@ -80,28 +105,31 @@ export function IndexPage() {
           </div>
 
           {/* Examples */}
-          <div className="p-2 leading-relaxed sm:p-3">
-            <div className="font-bold">Examples</div>
+          <div className="p-2 leading-relaxed text-gray-700 dark:text-gray-200 sm:p-3">
+            <div className="font-bold text-black dark:text-white">Examples</div>
 
             <div>
-              <Link className="hover:text-blue-500" to="/example/media">
+              <Link className="hover:text-blue-600 dark:hover:text-blue-400" to="/example/media">
                 Media example
               </Link>
             </div>
             <div>
-              <Link className="hover:text-blue-500" to="/example/marketing">
+              <Link
+                className="hover:text-blue-600 dark:hover:text-blue-400"
+                to="/example/marketing"
+              >
                 Marketing example
               </Link>
             </div>
           </div>
 
           {/* Links */}
-          <div className="p-2 leading-relaxed sm:p-3">
-            <div className="font-bold">Links</div>
+          <div className="p-2 leading-relaxed text-gray-700 dark:text-gray-200 sm:p-3">
+            <div className="font-bold text-black dark:text-white">Links</div>
 
             <div>
               <a
-                className="hover:text-blue-500"
+                className="hover:text-blue-600 dark:hover:text-blue-400"
                 href="https://github.com/sanity-io/demo"
                 target="_blank"
                 rel="noreferrer"
@@ -111,7 +139,7 @@ export function IndexPage() {
             </div>
             <div>
               <a
-                className="hover:text-blue-500"
+                className="hover:text-blue-600 dark:hover:text-blue-400"
                 href="https://sanity.io"
                 target="_blank"
                 rel="noreferrer"

@@ -9,9 +9,17 @@ export function TypographyPage() {
       <Prose>
         <h1>Typography</h1>
 
+        <p>The type scale defaults to the same as Tailwind.</p>
+
+        <NotProse>
+          <TypeScale />
+        </NotProse>
+
+        <h2>Fonts</h2>
+
         <NotProse>
           <div className="my-5">
-            <div className="rounded border border-gray-200 dark:border-gray-800">
+            <div className="rounded border border-gray-200 dark:border-gray-900">
               <div className="p-7 text-center text-4xl font-extrabold tracking-tight">
                 Inter Extra Bold
               </div>
@@ -25,7 +33,7 @@ export function TypographyPage() {
 
         <NotProse>
           <div className="my-5">
-            <div className="rounded border border-gray-200 dark:border-gray-800">
+            <div className="rounded border border-gray-200 dark:border-gray-900">
               <div className="p-7 text-center text-4xl">Inter Medium</div>
             </div>
 
@@ -35,7 +43,7 @@ export function TypographyPage() {
 
         <NotProse>
           <div className="my-5">
-            <div className="rounded border border-gray-200 dark:border-gray-800">
+            <div className="rounded border border-gray-200 dark:border-gray-900">
               <div className="p-7 text-center font-serif text-4xl">PT Serif</div>
             </div>
 
@@ -45,20 +53,12 @@ export function TypographyPage() {
 
         <NotProse>
           <div className="my-5">
-            <div className="rounded border border-gray-200 dark:border-gray-800">
+            <div className="rounded border border-gray-200 dark:border-gray-900">
               <div className="p-7 text-center font-mono text-4xl">IBM Plex Mono</div>
             </div>
 
             <p className="mt-1 text-sm">Code and tabular text is set in IBM Plex Mono.</p>
           </div>
-        </NotProse>
-
-        <h2 className="mt-5 mb-3 text-xl font-extrabold tracking-tight">Type scale</h2>
-
-        <p>The type scale defaults to the same as Tailwind.</p>
-
-        <NotProse>
-          <TypeScale />
         </NotProse>
       </Prose>
     </Container>
