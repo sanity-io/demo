@@ -5,6 +5,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.1](https://github.com/sanity-io/demo/compare/v1.0.0...v1.0.1-beta.1) (2022-11-30)
+
+### Bug Fixes
+
+- **deps:** update dependencies ([cd97410](https://github.com/sanity-io/demo/commit/cd97410c6a40d64d44208ddabf2d0bc4de61d4e7))
+- **tailwind:** replace `spacing` theme property ([a6bf447](https://github.com/sanity-io/demo/commit/a6bf4474af061b3d2191106dbd29b60545f5c2fc))
+- **tailwind:** update typography colors ([69bb6a6](https://github.com/sanity-io/demo/commit/69bb6a64666d8da4da7066482303ab3fc3fa50a5))
+
 ## 1.0.0 (2022-11-11)
 
 ### Features
