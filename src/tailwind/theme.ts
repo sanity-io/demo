@@ -1,4 +1,4 @@
-import {ColorTints, black, hues, white} from '@sanity/color'
+import {ColorTints, black, hues, white, gray} from '@sanity/color'
 import {fontFamily, radius, screen, space} from '@sanity/demo'
 import {ThemeConfig} from 'tailwindcss/types/config'
 
@@ -31,7 +31,7 @@ export const theme: Partial<ThemeConfig & {extend: Partial<ThemeConfig>}> = {
     typography: {
       DEFAULT: {
         css: {
-          '--tw-prose-body': black.hex,
+          '--tw-prose-body': gray[700].hex,
           '--tw-prose-headings': black.hex,
           '--tw-prose-lead': black.hex,
           '--tw-prose-links': black.hex,
@@ -43,11 +43,12 @@ export const theme: Partial<ThemeConfig & {extend: Partial<ThemeConfig>}> = {
           '--tw-prose-quote-borders': black.hex,
           '--tw-prose-captions': black.hex,
           '--tw-prose-code': black.hex,
-          '--tw-prose-pre-code': white.hex,
-          '--tw-prose-pre-bg': black.hex,
-          '--tw-prose-th-borders': black.hex,
-          '--tw-prose-td-borders': black.hex,
-          '--tw-prose-invert-body': white.hex,
+          '--tw-prose-pre-code': gray[700].hex,
+          '--tw-prose-pre-bg': gray[50].hex,
+          '--tw-prose-th-borders': gray[200].hex,
+          '--tw-prose-td-borders': gray[200].hex,
+
+          '--tw-prose-invert-body': gray[200].hex,
           '--tw-prose-invert-headings': white.hex,
           '--tw-prose-invert-lead': white.hex,
           '--tw-prose-invert-links': white.hex,
@@ -59,10 +60,10 @@ export const theme: Partial<ThemeConfig & {extend: Partial<ThemeConfig>}> = {
           '--tw-prose-invert-quote-borders': white.hex,
           '--tw-prose-invert-captions': white.hex,
           '--tw-prose-invert-code': white.hex,
-          '--tw-prose-invert-pre-code': black.hex,
-          '--tw-prose-invert-pre-bg': white.hex,
-          '--tw-prose-invert-th-borders': white.hex,
-          '--tw-prose-invert-td-borders': white.hex,
+          '--tw-prose-invert-pre-code': gray[300].hex,
+          '--tw-prose-invert-pre-bg': gray[950].hex,
+          '--tw-prose-invert-th-borders': gray[900].hex,
+          '--tw-prose-invert-td-borders': gray[900].hex,
 
           blockquote: {
             fontWeight: 'inherit',
