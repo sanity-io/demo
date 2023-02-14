@@ -102,7 +102,7 @@
     "*": "prettier --write --cache --ignore-unknown",
     "*.{cjs,js,jsx,mjs,ts,tsx}": "eslint"
   },
-  "packageManager": "pnpm@7.12.2",
+  "packageManager": "pnpm@7.27.0",
   "publishConfig": {
     "access": "public"
   },
