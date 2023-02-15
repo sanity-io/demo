@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/sanity-io/demo/compare/v1.0.1...v1.0.2) (2023-02-15)
+
+### Bug Fixes
+
+- **deps:** update dependency react-router-dom to ^6.8.1 ([#16](https://github.com/sanity-io/demo/issues/16)) ([6465d47](https://github.com/sanity-io/demo/commit/6465d4732418e417c395cef675b5a01a748de6a8))
+
 ## [1.0.1](https://github.com/sanity-io/demo/compare/v1.0.0...v1.0.1) (2022-11-27)
 
 ### Bug Fixes
