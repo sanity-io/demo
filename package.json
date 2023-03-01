@@ -60,8 +60,8 @@
     "docs"
   ],
   "devDependencies": {
-    "@commitlint/cli": "^17.4.3",
-    "@commitlint/config-conventional": "^17.4.3",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@sanity/color": "2.2.3",
     "@sanity/pkg-utils": "^2.2.5",
     "@sanity/semantic-release-preset": "^4.0.0",
