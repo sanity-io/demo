@@ -51,7 +51,7 @@ export function ArticlePage() {
         />
 
         <div className="m-auto max-w-5xl p-4 md:p-5 lg:p-6">
-          <div className="mt-4 max-w-2xl border-b border-gray-200 pb-3 text-sm dark:border-gray-900 sm:text-lg md:mt-auto md:pb-4 md:text-xl">
+          <div className="mt-4 max-w-2xl border-b border-gray-200 pb-3 text-sm sm:text-lg md:mt-auto md:pb-4 md:text-xl dark:border-gray-900">
             <span>Oct 25, 2022</span>
             <span> ● </span>
             <span>Carolina Gonzalez</span>

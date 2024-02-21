@@ -53,7 +53,7 @@ export function TypographyPage() {
           </div>
         </NotProse>
 
-        <h2 className="mt-5 mb-3 text-xl font-extrabold tracking-tight">Type scale</h2>
+        <h2 className="mb-3 mt-5 text-xl font-extrabold tracking-tight">Type scale</h2>
 
         <p>The type scale defaults to the same as Tailwind.</p>
 
