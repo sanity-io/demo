@@ -5,6 +5,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/sanity-io/demo/compare/v1.0.2...v2.0.0) (2024-02-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** Update dependency @sanity/color to v3 (#43)
+
+### Bug Fixes
+
+* **deps:** Update dependency @sanity/color to v3 ([#43](https://github.com/sanity-io/demo/issues/43)) ([e0b6cac](https://github.com/sanity-io/demo/commit/e0b6cacf18fefa71c65b31bd4417bd9db51d5cf3))
+* minify bundle ([e73ad26](https://github.com/sanity-io/demo/commit/e73ad268776433790b648394fc4d2b0b5396f6d0))
+
 ## [1.0.2](https://github.com/sanity-io/demo/compare/v1.0.1...v1.0.2) (2023-02-15)
 
 ### Bug Fixes
