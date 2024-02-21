@@ -10,5 +10,5 @@ if (!element) throw new Error('missing element')
 createRoot(element).render(
   <StrictMode>
     <Root />
-  </StrictMode>
+  </StrictMode>,
 )
