@@ -87,7 +87,7 @@
     "rimraf": "^4.4.1",
     "semantic-release": "^23.0.5",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2"
+    "typescript": "5.4.2"
   },
   "peerDependencies": {
     "@sanity/color": "^2 || ^3.0.0",
